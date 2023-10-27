@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>gpt3</title>
+    <script src="https://kit.fontawesome.com/a6ea1e733c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../styles/auth.css" />
+    
+  </head>
+  <body>
+    <section class="authentication-container">
+      <div class="form-container">
+        <h1 id="form-header-text">sign up</h1>
+        <div class="auth-hr-line">
+          <hr />
+        </div>
+        <form>
+          <div class="form-2-padding">
+            <div class="input-field" id="name-input">
+              <i class="fa-solid fa-user"></i>
+              <input type="text" placeholder="Name" id="name" />
+            </div>
+            <div class="input-field">
+              <i class="fa-solid fa-envelope"></i>
+              <input type="email" placeholder="Email id" />
+            </div>
+            <div class="input-field">
+              <i class="fa-solid fa-key"></i>
+              <input type="password" placeholder="password" />
+            </div>
+            <div class="forgotten-password">
+              <p>
+                lost password?<span class="recover-password">click Here!</span>
+              </p>
+            </div>
+            <div class="signin-signup-btn">
+              <div class="signup-btn">
+                <button type="submit" id="signup-btn">sign up</button>
+              </div>
+              <div class="signin-btn">
+                <button type="submit" id="signin-btn">sign in</button>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+      
+    </section>
+    <script src="../script/auth.js"></script>
+  </body>
+</html>
