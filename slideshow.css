@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #7d7070;
+}
+.slideshow{
+   width: 600px; 
+   height: 400px;
+   background: url(/images/Rectangle\ 1.png);
+   /* used this to position the picture in the middle */
+   margin: 100px auto;
+    
+   animation: slide 5s infinite;
+}
+@keyframes slide{
+    25%{
+        background: url(/images/Rectangle\ 1.png)
+    }
+    50%{
+        background: url(/images/Rectangle\ 2.png);
+    }
+    75%{
+        background: url(/images/Rectangle\ 3.png);
+    }
+}

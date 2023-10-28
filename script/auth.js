@@ -14,8 +14,8 @@ function signup(event) {
   nameInput.style.display = "block"
 }
 
-let signinText = document.querySelector(".signin-btn");
+let signinText = document.querySelector(".authentication-signin-btn");
 signinText.addEventListener("click", signIn);
 
-let signupText = document.querySelector(".signup-btn");
+let signupText = document.querySelector(".authentication-signup-btn");
 signupText.addEventListener("click", signup());

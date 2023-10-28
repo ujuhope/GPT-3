@@ -10,7 +10,7 @@ body {
     rgba(4, 12, 24, 1) 100%
   );
 }
-/* used animation from animista for beautiful effect */
+/* used animation keyfames for beautiful effect */
 /* scale up */
 @keyframes scaleUp {
   from {
@@ -28,7 +28,7 @@ body {
     transform: scale(1);
   }
   50% {
-    transform: scale(1.1);
+    transform: scale(1.05);
   }
   100% {
     transform: scale(1);
@@ -172,14 +172,14 @@ body {
   color: #81afdd;
   white-space: pre-line;
 }
-form {
+.main-page-form{
   width: 100%;
   margin: 2% 0 1.5%;
   display: flex;
   align-items: center;
 }
 
-form input {
+.main-page-form input{
   flex: 2;
   font-size: 1.5vw;
   font-weight: 400;
@@ -196,7 +196,7 @@ form input {
 
 }
 
-form button {
+.main-page-form button {
   flex: 1;
   background: #ff4820;
   border: 1px solid #ff4820;
@@ -209,7 +209,7 @@ form button {
   padding-left: 10px;
   padding-right: 6px;
 }
-form button:hover {
+.main-page-form button:hover {
   cursor: pointer;
 }
 
@@ -779,11 +779,11 @@ form button:hover {
     max-width: 100%;
     /* animation: pulse 2s infinite; */
   }
-  form {
+  .main-page-form {
     margin-top: -15px;
   }
-  form input,
-  form button {
+  .main-page-form input,
+  .main-page-form button {
     font-size: 3vw;
   }
   .people img {

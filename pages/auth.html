@@ -4,15 +4,52 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>gpt3</title>
-    <script src="https://kit.fontawesome.com/a6ea1e733c.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/a6ea1e733c.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="../styles/styles.css">
     <link rel="stylesheet" href="../styles/auth.css" />
-    
   </head>
   <body>
-    <section class="authentication-container">
-      <div class="form-container">
+    <section class="backG">
+      <!-- header section -->
+    <nav class="navbar">
+      <div class="navbar-links">
+        <div class="navbar-links-logo">
+          <a href="../pages/home.html">
+            <img src="../images/GPT-3-logo.png" alt="" />
+          </a>
+        </div>
+        <button class="menu-btn" onclick="toggleMenu()">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+
+        <div class="navbar-links-container" id="navbarLinks">
+          <hr class="navbar-hr-lines" />
+          <p><a href="../pages/home.html">Home</a></p>
+          <hr class="navbar-hr-lines" />
+          <p><a href="../pages/gpt3.html">What is GPT?</a></p>
+          <hr class="navbar-hr-lines" />
+          <p><a href="../pages/feautures.html">Open AI</a></p>
+          <hr class="navbar-hr-lines" />
+          <p><a href="../pages/possibilities.html">Case Studies?</a></p>
+          <hr class="navbar-hr-lines" />
+          <p><a href="../pages/blog.html">library</a></p>
+        </div>
+      </div>
+      <div class="auth-btn" id="authBtn">
+        <p><a href="../pages/auth.html">sign in</a></p>
+        <a href="../pages/auth.html"><button type="button">sign up</button></a>
+      </div>
+    </nav>
+    <!-- authentication form section -->
+      <div class="authentication-container"></div>
+      <div class="authentication-form-container">
+        <div class="authentication-h1-text">
         <h1 id="form-header-text">sign up</h1>
-        <div class="auth-hr-line">
+        </div>
+        <div class="authentication-hr-line">
           <hr />
         </div>
         <form>
@@ -34,18 +71,17 @@
                 lost password?<span class="recover-password">click Here!</span>
               </p>
             </div>
-            <div class="signin-signup-btn">
-              <div class="signup-btn">
-                <button type="submit" id="signup-btn">sign up</button>
+            <div class="authentication-signin-signup-btn">
+              <div class="authentication-signup-btn">
+                <button type="submit" id="authentication-signup-btn">sign up</button>
               </div>
-              <div class="signin-btn">
-                <button type="submit" id="signin-btn">sign in</button>
+              <div class="authentication-signin-btn">
+                <button type="submit" id="authentication-signin-btn">sign in</button>
               </div>
             </div>
           </div>
         </form>
       </div>
-      
     </section>
     <script src="../script/auth.js"></script>
   </body>
