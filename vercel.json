@@ -4,14 +4,6 @@
     {
       "src": "pages/**/*",
       "use": "@vercel/static-build"
-    },
-    {
-      "src": "styles/**/*",
-      "use": "@vercel/static-build"
-    },
-    {
-      "src": "script/**/*",
-      "use": "@vercel/static-build"
     }
   ]
 }
