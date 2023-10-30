@@ -1,0 +1,8 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "gpt3/pages/**/*", "use": "@vercel/static-build" },
+    { "src": "gpt3/styles/**/*", "use": "@vercel/static-build" },
+    { "src": "gpt3/script/**/*", "use": "@vercel/static-build" }
+  ]
+}
