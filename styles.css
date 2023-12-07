@@ -109,7 +109,6 @@ body {
   text-transform: capitalize;
   cursor: pointer;
   text-decoration: none;
-  
 }
 
 .auth-btn button {
@@ -130,13 +129,11 @@ body {
   transition: 1s ease-out;
   padding: 0 4px;
 }
-.menu-btn {
+#menu-btn {
   cursor: pointer;
   display: none;
-  margin: 0;
-
-  background-color: #fff;
-  width: 20px;
+  color: #fff;
+  margin-right: 10px;
 }
 
 /* Home/main section */
@@ -172,14 +169,14 @@ body {
   color: #81afdd;
   white-space: pre-line;
 }
-.main-page-form{
+.main-page-form {
   width: 100%;
   margin: 2% 0 1.5%;
   display: flex;
   align-items: center;
 }
 
-.main-page-form input{
+.main-page-form input {
   flex: 2;
   font-size: 1.5vw;
   font-weight: 400;
@@ -193,7 +190,6 @@ body {
   color: #ffff;
   box-sizing: border-box;
   height: 40px;
-
 }
 
 .main-page-form button {
@@ -363,9 +359,8 @@ body {
   font-size: 10px;
   color: rgba(255, 138, 113, 1);
   padding-top: 14px;
- 
 }
-.GPT3-feautures-header a{
+.GPT3-feautures-header a {
   text-decoration: none;
 }
 .FD-tittle {
@@ -412,7 +407,7 @@ body {
   width: 90%;
   animation: slideIn 1.5s ease-in-out;
 }
-.possibilities-content a{
+.possibilities-content a {
   text-decoration: none;
 }
 
@@ -683,7 +678,6 @@ body {
   color: red;
   /* letter-spacing: 1em; */
 }
-/* authentication section */
 
 /* responsive design starts here  */
 @media screen and (max-width: 577px) {
@@ -719,10 +713,11 @@ body {
   .navbar-links-container p {
     margin: 0.2rem 1rem;
   }
-  .menu-btn {
+  #menu-btn {
     display: block;
-    right: 30px;
+    /* right: 30px; */
   }
+
   .navbar-links-container a {
     color: #fff;
     font-weight: 400;
@@ -937,7 +932,7 @@ body {
   .navbar-links-container p {
     margin: 0.2rem 1rem;
   }
-  .menu-btn {
+  #menu-btn {
     display: block;
     right: 30px;
   }

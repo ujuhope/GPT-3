@@ -61,7 +61,7 @@
   margin-bottom: 15px;
 }
 
-.input-field i {
+ .fa-key, .fa-envelope, .fa-user {
   position: absolute;
   left: 10px;
   top: 50%;

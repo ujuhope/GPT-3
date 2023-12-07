@@ -18,4 +18,4 @@ let signinText = document.querySelector(".authentication-signin-btn");
 signinText.addEventListener("click", signIn);
 
 let signupText = document.querySelector(".authentication-signup-btn");
-signupText.addEventListener("click", signup());
+signupText.addEventListener("click", signup);
